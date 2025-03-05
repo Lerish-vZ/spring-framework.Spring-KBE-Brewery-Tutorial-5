@@ -1,0 +1,3 @@
+FROM openjdk:17-jre-slim
+
+ENV JAVA_OPTS " -Xms512m -Xmx512m -Djava.security.egd=file:/dev/./urandom"
