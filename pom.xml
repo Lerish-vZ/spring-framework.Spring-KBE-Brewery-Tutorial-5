@@ -109,7 +109,16 @@
                 <version>0.35.0</version>
                 <configuration>
                     <verbose>true</verbose>
-                    <
+                    <images>
+                        <image>
+                            <name>kbe-rest</name>
+                            <build>
+                                <assembly>
+                                    
+                                </assembly>
+                            </build>
+                        </image>
+                    </images>
                 </configuration>
             </plugin>
             <plugin>
