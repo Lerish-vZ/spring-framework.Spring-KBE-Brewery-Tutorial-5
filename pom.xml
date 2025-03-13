@@ -114,7 +114,7 @@
                             <name>kbe-rest</name>
                             <build>
                                 <assembly>
-                                    
+                                    <descriptorRef>artifact</descriptorRef>
                                 </assembly>
                             </build>
                         </image>
